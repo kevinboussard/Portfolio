@@ -9,10 +9,10 @@ import { HttpModule } from '@angular/http';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
-
+import { ParseJsonCvService } from './services/parse-json-cv.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,7 @@ import { ProjectsComponent } from './projects/projects.component';
     MaterialModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [ParseJsonCvService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

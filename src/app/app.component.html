@@ -1,3 +1,15 @@
 <md-toolbar color="primary">
   <h1>{{title}}</h1>
 </md-toolbar>
+
+<div *ngIf="skills">
+  <ul>
+    <li *ngFor="let skill of skills">{{skill.name}}</li>
+  </ul>
+</div>
+
+<div *ngIf="projects">
+  <ul>
+    <li *ngFor="let project of projects">{{project.name}}</li>
+  </ul>
+</div>

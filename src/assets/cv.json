@@ -1,0 +1,25 @@
+{
+
+  "skills":[
+    {
+      "position": 1,
+      "name": "Angular.io",
+      "masterySkill": 40
+    },
+    {
+      "position": 2,
+      "name": "C#",
+      "masterySkill": 60
+    }
+  ],
+  "projects":[
+    {
+      "position": 1,
+      "name": "Portfolio",
+      "description": "Réalisation d'un portfolio de compétences et de projets",
+      "skills": ["Angular.io"],
+      "picture": ""
+    }
+  ]
+
+}
